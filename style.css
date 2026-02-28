@@ -1,0 +1,129 @@
+table {
+  border-collapse: collapse;
+}
+
+header table td {
+  background-color: black;
+}
+
+header table a,
+section table tr .black a {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px 10px 5px 10px;
+  line-height: 1.13615em;
+  letter-spacing: 0.127811em;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+header table img {
+  height: 50px;
+  width: 100px;
+  text-align: left;
+  padding: 5px 0px 5px 50px;
+}
+
+.profile {
+  padding-right: 50px;
+  text-align: right;
+}
+
+.subtitle {
+  border-top: 1px solid rgba(215, 215, 215, 0.8);
+  border-bottom: 1px solid rgb(215, 215, 215, 0.8);
+}
+
+.title {
+  background-color: white;
+  padding: 50px 0 10px 0;
+  text-align: center;
+}
+
+.title a {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: 200;
+  font-size: 80px;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+
+.black a {
+  color: white;
+  background-color: black;
+  padding: 10px 15px 10px 15px;
+  border: 5px solid black;
+}
+
+.black {
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+section p {
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 17px;
+  text-align: center;
+  padding: 10px 0 50px 0;
+}
+
+body {
+  margin: 0;
+}
+
+section table .submain table td {
+  text-align: center;
+  width: 200px;
+  height: 220px;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+
+section table .submain table td img {
+  object-fit: fill;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+section table .submain table tr .tall {
+  width: 285px;
+  height: 480px;
+}
+
+section table a img {
+  box-shadow: 0 0 15px rgba(180, 180, 180, 0.8);
+  filter: grayscale(100%);
+  transition:
+    transform 0.4s ease,
+    filter 0.4s ease;
+}
+
+section table a:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: rgb(215, 215, 215, 0.8);
+  padding: 10px 10px;
+}
+
+footer p {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
